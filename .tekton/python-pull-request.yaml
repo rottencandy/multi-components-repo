@@ -25,7 +25,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-appstudio/user-workload:on-pr-{{revision}}
   - name: dockerfile
-    value: https://raw.githubusercontent.com/karthikjeeyar/multi-components/main/python-app/docker/Dockerfile
+    value: https://raw.githubusercontent.com/devfile-samples/devfile-sample-python-basic/main/docker/Dockerfile
   pipelineRef:
     bundle: quay.io/redhat-appstudio/build-templates-bundle:13f5d9c921b3f727684a00084037f673a0dc4273
     name: docker-build
